@@ -1,0 +1,23 @@
+.hero {
+    color: white;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: 100%;
+    font-family: "STAR7";
+    padding: 16px;
+}
+
+.background {
+    background-color: #261E19;
+    background-size: cover;
+}
+
+.form {
+    color: white;
+    padding: 16px;
+    border-radius: 4%;
+    font-family: 'STAR7';
+}

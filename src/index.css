@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "STAR7";
+  src: local("STAR7"),
+    url("./assets/fonts/STAR7.ttf") format("truetype");
+  font-weight: bold;
+}
+
+/*
+Reset bootstrap blue border
+*/
+input:hover, 
+select:hover, 
+textarea:active, 
+input:active, 
+select:active, 
+textarea:focus, 
+input:focus,
+select:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}

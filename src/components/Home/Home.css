@@ -1,0 +1,11 @@
+.hero {
+    color: white;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: 100%;
+    font-family: "STAR7";
+    padding: 16px;
+}
